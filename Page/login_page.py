@@ -8,7 +8,7 @@ class Login(BasePage):
     _passwd_element = "div[class='from-group']>input[name='password']"
     _login_button = "button[class='btn  btn-primary']"
 
-    def __init__(self,driver):
+    def __init__(self, driver):
         super(Login, self).__init__(driver)
 
     def _validate_page(self):

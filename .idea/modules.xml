@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/TUGithubAPI-teach_004/.idea/TUGithubAPI-teach_004.iml" filepath="$USER_HOME$/Desktop/TUGithubAPI-teach_004/.idea/TUGithubAPI-teach_004.iml" />
+      <module fileurl="file://D:/github/.idea/github.iml" filepath="D:/github/.idea/github.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/selenium_study.iml" filepath="$PROJECT_DIR$/.idea/selenium_study.iml" />
     </modules>
   </component>

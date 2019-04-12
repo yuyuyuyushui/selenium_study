@@ -25,7 +25,7 @@ class BasePage(object):
         except NoSuchElementException as e:
             print(e)
 
-    def sendkeys(self,locat,text):
+    def sendkeys(self, locat, text):
         try:
             element = WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(locat))
             element.send_keys(text)
@@ -44,7 +44,7 @@ class BasePage(object):
         except NoSuchElementException as e:
             raise e
 
-    def element_visible2(self,by):
+    def element_visible2(self, by):
         try:
             return self.driver.find_element(*by)
         except NoSuchElementException as e:
