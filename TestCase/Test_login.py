@@ -21,9 +21,10 @@ class Test_login(unittest.TestCase):
         :return:
         """
         Login(self.driver)
+
     @data(*File_read('test.xlsx').excel_read('Sheet1'))
     @unpack
-    def test_login_page_login(self,loginname,passwd):
+    def test_login_page_login(self, loginname, passwd):
         """
         测试页面的登录
         :param loginname:

@@ -3,9 +3,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 class BasePage(object):
-    def __init__(self, driver):
+    def __init__(self, driver=None):
         self.driver = driver
         self._validate_page()
+        # self.cookies = cookieks
 
     def _validate_page(self):
         """验证页面是否登录成功"""
